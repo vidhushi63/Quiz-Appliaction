@@ -1,0 +1,231 @@
+body,p{
+    font-family: 'Cantarell', Arial, sans-serif;
+    font-weight: 400;
+  }
+  .toptxt{
+    font-size: 20px;
+      letter-spacing: 0.126em;
+    }
+    .topbox,.footer{
+      text-transform: uppercase;
+      overflow-wrap: break-word;
+      text-align: center;
+      line-height: 22.5px;
+      box-sizing: border-box;
+    }
+    .svgcls{
+      width: 30px;
+      box-sizing: inherit;
+      display: inline;
+      animation-name: spin;
+      letter-spacing: normal;
+      -webkit-animation: spin 2s linear infinite;
+      animation: spin 2s linear infinite;
+    }
+    .navi{
+      font-family: 'Cantarell', Arial, sans-serif;
+      cursor: pointer;
+      font-size:18px;
+      font-weight: 400;
+      letter-spacing: 0.214em;
+    }
+    .nav-link{
+      text-decoration: none;
+      color: rgb(87,87,87);
+      
+    }
+    .hero{
+      text-transform: uppercase;
+      letter-spacing: 0.664px;
+      font-size: 28px;
+    }
+    .txt{
+      font-size: 28px;
+      overflow-wrap: break-word;
+      letter-spacing: normal;
+    }
+    .footer{
+      font-size: 15px;
+      color: rgb(89,89,89);
+      font-weight: 400;
+      letter-spacing: 1.245;
+    }
+     #logo{
+        width:100vw;
+        display: flex;
+        justify-content: center;
+    }
+    .sure_logo{
+        width:18rem;
+        height: 18rem;
+    }
+    .btn hover{
+      background: rgba(59, 143, 197);
+    }
+     @-webkit-keyframes spin {
+      0% { -webkit-transform: rotate(0deg); }
+      100% { -webkit-transform: rotate(360deg); }
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    /* Grades CSS */
+
+    .assignment>p>.btn{
+         width:  100%;
+         text-align: left;
+         display: flex;
+         background-color: rgb(239, 239, 239);
+         color: black;
+         border: none;
+    }
+
+    .assignment>p>.btn:hover{
+        background-color: #007bff;
+        color: white;
+        border: none;
+        outline: none;
+    }
+    .active1{
+      background-color: #007bff;
+
+    }
+
+    .assignment>p>.btn>.assignmentName{
+      width: 33%;
+    }
+
+    .assignment>p>.btn>.courseName{
+      width: 33%;
+      text-align: center;
+    }
+    .assignment>p>.btn>.assignmentDate{
+      width: 33%;
+      text-align: right;
+    }
+     .assignment{
+       margin-top: 10px;
+     }
+  
+     .edit1{
+       display: none;
+     }
+     .editGradesBtn{
+       margin-left: 20px;
+     }
+     .editGradesBtn:hover{
+        text-decoration: none;
+     }
+
+
+     button[data-bs-toggle="pill"]{
+       border: none;
+     }
+
+     button[data-bs-toggle="pill"]:hover{
+        border: none;
+        outline: none;
+     }
+
+
+
+     
+.myinput{
+    width:6rem;
+    background-color: rgb(245, 252, 255);
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 400;
+    font-variant: small-caps;
+    
+  }
+  .mybtn{
+    margin: .6rem;
+  }
+
+
+.Allques{
+  background: rgba(59, 143, 197);
+  max-width: 70rem;
+  padding: 1rem;
+}
+.ques1{
+  background-color: #daecff;
+  max-width: 50rem;
+  border: none;
+  padding:.6rem ;
+  border-radius: 5px;
+}
+.ques_inp{
+  border: none;
+  background-color: #daecff;
+  text-align: center;
+  font-weight: 700;
+    font-variant: small-caps;
+  width:45rem;
+  background-color: none;
+}
+.ans_inp{
+  border: none;
+  text-align: center;
+  width:45rem;
+  background-color: white;
+  border-radius: 5px;
+  margin: 0.4rem;
+  padding: 0.4rem;
+  font-weight: 400;
+    font-variant: small-caps;
+}
+
+.point{
+  font-weight: 4rem;
+  float: right;
+  max-width: 1rem;
+  border: none;
+ 
+}
+
+
+
+@media (min-width: 900px) and (max-width: 1200px){
+  .cardImg{
+    display: none;
+  }
+  .box{
+    width:78rem;
+    
+  }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  .cardImg{
+    display: none;
+  }
+  .box{
+    width:65rem;
+    
+  }
+  .ques_inp{
+    width:20rem;
+  }
+  .ans_inp{
+    width:20rem;
+  }
+}
+@media (min-width: 0px) and (max-width: 700px) {
+  .cardImg{
+    display: none;
+  }
+  .box{
+    width:40rem;
+  }
+  .ques_inp{
+    width:10rem;
+  }
+  .ans_inp{
+    width:20rem;
+  }
+}
