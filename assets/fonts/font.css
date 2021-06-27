@@ -1,0 +1,25 @@
+@font-face {
+    font-family: fam1;
+    src: url(fonts-fontawesome-webfont.woff) format("truetype");
+}
+@font-face {
+    font-family: fam2;
+    src: url("fonts-fontawesome-webfont.woff2") format("truetype");
+}
+
+@font-face {
+    font-family: fam3;
+    src: url("fonts-glyphicons-halflings-regular.woff2") format("truetype");
+}
+@font-face {
+    font-family: fam4;
+    src: url("fonts-materialdesignicons-webfont.woff2") format("truetype");
+}
+@font-face {
+    font-family: fam5;
+    src: url("fonts-Restaurant-Regular.woff") format("truetype");
+}
+@font-face {
+    font-family: fam6;
+    src: url("fonts-Thin-Regular.woff") format("truetype");
+}
