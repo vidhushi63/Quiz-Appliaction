@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="page">
+    <form >
+      <div class="">
+        <label for="Email">Email</label>
+        <div><input required type="email" [(ngModel)]="model.user_id" #user_id="ngModel" id="user_id" name="user_id" novalidate></div>
+        
+      </div>
+      <div>
+        <label for="Password">Password</label>
+        <div> <input type="password" id="user_pass" name="user_pass" [(ngModel)]="model.user_pass" #user_pass="ngModel" novalidate></div>
+       
+      </div>
+      <button type="submit"(click)="submitForm(model)" class="my-btn">Login</button>
+    </form>
+   
+  </div>
+</body>
+</html>

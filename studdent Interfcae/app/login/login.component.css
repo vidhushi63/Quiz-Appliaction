@@ -1,0 +1,36 @@
+.page{
+    display: block;
+    margin: 10rem;
+    margin-left: 28rem;
+    width: 25rem;
+    height: 15rem;
+   border-radius: 10px;
+    background: rgb(219, 219, 238);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input{
+    padding:0.5rem;
+    margin: 0.5rem;
+    border: none;
+    width: 19rem;
+    border-radius: 5px;
+    font-size: large;
+}
+.my-btn{
+    padding: .5rem;
+   border-radius: 4px;
+    /* margin-left:10rem; */
+    margin-top: 1rem;
+    border: 1px solid white;
+    background-color: transparent;
+    color: black;
+
+}
+.my-btn:hover{
+    font-size: .9rem;
+    background-color: rgb(223, 208, 222);
+    
+}
